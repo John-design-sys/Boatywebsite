@@ -1,0 +1,29 @@
+
+
+h1 {
+    font-size: 100px;
+    color: aqua;
+}
+
+#main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+#content{
+    width: 80%;
+}
+nav {
+    width: 20%;
+    background-color: rgba(0, 255, 255, 0.664);
+}
+#lifestyle{
+    /* border: solid 4px red; */
+    background-image: url("Images/boat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: green;
+}
+#content{
+    background-color: rgba(233, 150, 122, 0.664);
+}
